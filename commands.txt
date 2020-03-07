@@ -1,0 +1,442 @@
+    1  git status
+    2  git add --all 
+    3  git commit -m "rebase fix"
+    4  git status
+    5  git rebase --amend
+    6  git rebase --continue
+    7  git rebase --abort 
+    8  git status
+    9  git log
+   10  git status
+   11  git add --all
+   12  git commit -m "authentication"
+   13  git log
+   14  git push
+   15  git pull
+   16  git statuts
+   17  git status 
+   18  git add .
+   19  git add --all
+   20  git status 
+   21  git commit -m "ok"
+   22  git status 
+   23  git push 
+   24  git checkout -b 'hajer'
+   25  git status
+   26  git pull origin master 
+   27  git status
+   28  git checkout master
+   29  git checkout hajer 
+   30  git status 
+   31  git commit -m "ok"
+   32  git checkout master 
+   33  git status 
+   34  git checkout hajer 
+   35  git pull origin master 
+   36  git status
+   37  git add --all
+   38  git status
+   39  git commit -m "admin"
+   40  git status
+   41  git pull origin master 
+   42  git status
+   43  git pull origin master 
+   44  git status
+   45  git add --all
+   46  git commit -m "admin"
+   47  git status
+   48  git push 
+   49   git push --set-upstream origin hajer
+   50  git status
+   51  git pull origin master 
+   52  git status
+   53  git checkout master 
+   54  git status
+   55  git checkout hajer 
+   56  git status
+   57  git add --all
+   58  git status
+   59  git commit -m "admin1"
+   60  git pull origin Iskander
+   61  git status
+   62  git add --all
+   63  git status
+   64  git status
+   65  git add --all
+   66  git status
+   67  git commit -m "admin2"
+   68  git push origin master 
+   69  git status
+   70  git status
+   71  git push
+   72  git checkout master
+   73  git pull
+   74  git checkout hajer
+   75  git merge master
+   76  git add .
+   77  git commit -m "merge"
+   78  git push
+   79  git status
+   80  git status
+   81  git add --all
+   82  git status
+   83  git commit -m "admin3"
+   84  git status
+   85  git pull origin master 
+   86  git status
+   87  git pull origin master 
+   88  git status
+   89  git add --all
+   90  git pull origin master 
+   91  git commit -m "admin5"
+   92  git status
+   93  git pull origin master 
+   94  git status
+   95  git add --all
+   96  git status
+   97  git add --all
+   98  git checkout hajer
+   99  git status
+  100  git add --all
+  101  git commit -m "admin6"
+  102  git status
+  103  git checkout master 
+  104  git status
+  105  git add --all
+  106  git commit -m "admin7"
+  107  git status
+  108  git checkout master 
+  109  git status
+  110  git add --all
+  111  git status
+  112  git commit -m "admin7"
+  113  git commit -m "admin8"
+  114  git status
+  115  git checkout master 
+  116  git commit -m "admin8"
+  117  git add --all
+  118  git status
+  119  git pull
+  120  git status
+  121  git pull master origin 
+  122  git status 
+  123  git pull Iskander
+  124  git pull origin Iskander 
+  125  git status 
+  126  git fetch origin 
+  127  git merge origin/master 
+  128  git status
+  129  git commit -m "okkk"
+  130  Omit --global
+  131  git merge origin/master 
+  132  git commit -m "okkk"
+  133  git config --global user.email "mejrihajer18@gmail.com"
+  134  git config --global user.name "Hajermejri"
+  135  git commit -m "okkk"
+  136  git status
+  137  git fetch origin 
+  138  git merge origin/master 
+  139  git status
+  140  git pull origin master 
+  141  git add --all
+  142  git checkout hajer 
+  143  git status
+  144  git status
+  145  git pull origin master 
+  146  git commit -m "okkkm"
+  147  git status
+  148  git pull origin master 
+  149  git pull origin master 
+  150  git status
+  151  git merge master
+  152  git reset --hard
+  153  git merge master
+  154  git merge origin/master
+  155  git status
+  156  git add --all
+  157  git commit -m "fix merge"
+  158  git status
+  159  git log --stat
+  160  git merge master
+  161  git merge origin/master
+  162  git checkout master
+  163  git checkout master
+  164  git status
+  165  git reset --hard
+  166  git checkout master
+  167  git pull 
+  168  git logg
+  169  git log
+  170  git checkout hajer 
+  171  git pull origin/master 
+  172  git pull origin/master 
+  173  git pull origin master 
+  174  git merge origin/master
+  175  git status
+  176  git add --all
+  177  git status
+  178  git merge origin/master
+  179  git commit -m "fgg"
+  180  git status
+  181  git status
+  182  git add --all
+  183  git status
+  184  git commit -m "fgg"
+  185  git status
+  186  git pull origin master 
+  187  git status
+  188  git add .
+  189  git status
+  190  git commit
+  191  git status
+  192  git add .
+  193  git status
+  194  git commit -m "5/1/2018"
+  195  git status
+  196  git pull origin master
+  197  git status
+  198  git add .
+  199  git status
+  200  git commit
+  201  git status
+  202  git status
+  203  git commit
+  204  git pull origin master
+  205  git status
+  206  git pull origin master
+  207  git status
+  208  git status
+  209  git checkout hajer
+  210  git commit
+  211  git add .
+  212  git commit
+  213  git status
+  214  git checkout hajer 
+  215  git checkout Hajer 
+  216  git status 
+  217  git checkout -b hajer1
+  218  git checkout hajer1 
+  219  git status
+  220  git add .
+  221  git status
+  222  git clone https://gitlab.com/salim_mejdoub/pidev-project-2k19.git
+  223  ls -s
+  224  cd main-app
+  225  cd pidev-project-2k19/
+  226  cd main-app
+  227  php bin/console server:run
+  228  ls -l
+  229  php -v
+  230  php bin/console server:run
+  231  composer update 
+  232  composer update
+  233  composer update
+  234  ls -l
+  235  php bin/console server: run
+  236  php bin/console server: run
+  237  git remote rename origin old-origin
+  238  git remote origin https://gitlab.com/Hajer_Mejri/pidev.git
+  239  git push -u origin --all
+  240  git init
+  241  git add .
+  242  git commit -m "first commit"
+  243  git status
+  244  git remote add origin https://gitlab.com/Hajer_Mejri/pidev.git
+  245  git push -u origin master
+  246  git add .
+  247  git commit -m "second commit" 
+  248  git push -u origin master
+  249  git status
+  250  git add .
+  251  git commit -m "my third commit"
+  252  git push -u origin master
+  253  git status
+  254  git add .
+  255  ls -l
+  256  git add .
+  257  git commit -m "fourth commit"
+  258  git push -u origin master
+  259  git status
+  260  git add .
+  261  git commit -m "five commit"
+  262  git push -u origin master
+  263  git status 
+  264  git pull 
+  265  composer update 
+  266  git pull
+  267  git commit -m "sixth change"
+  268  git status
+  269  git pull
+  270  git merge origin/master 
+  271  git commit 
+  272  git pull 
+  273  composer update 
+  274  git pull origin /mingw64/
+  275  git pull origin /master 
+  276  git pull 
+  277  git status
+  278  git add .
+  279  git commit "6 changes"
+  280  git commit 
+  281  git commit -m "6 changes"
+  282  git pull 
+  283  git pull 
+  284  git add .
+  285  git commit
+  286  git pull 
+  287  composer update 
+  288  git add .
+  289  git commit
+  290  git push 
+  291  git pull
+  292  git add .
+  293  git commit 
+  294  git pull
+  295  git status
+  296  git commit -m "23/04"
+  297  git status
+  298  git pull 
+  299  git pull 
+  300  git merge
+  301  git status 
+  302  git add .
+  303  git commit -m "m"
+  304  git pull
+  305  git status 
+  306  git status
+  307  git push 
+  308  git push 
+  309  git merge zeineb 
+  310  git merge origin/zeineb 
+  311  git status 
+  312  git add .
+  313  git add .
+  314  git status
+  315  git commit 
+  316  git push
+  317  composer update
+  318  composer update
+  319  git cache clear
+  320  git commit "second one "
+  321  git add  .
+  322  git commit 
+  323  git push 
+  324  git pull 
+  325  git pull 
+  326  git add .
+  327  git commit
+  328  git push 
+  329  git add .
+  330  git commit
+  331  git commit -m "hello salim"
+  332  git push -u origin master
+  333  git pull 
+  334  git add .
+  335  git commit -m "hello salim"
+  336  git push -u origin master
+  337  git pull 
+  338  git add 
+  339  git add .
+  340  git commit -m "27052019"
+  341  git push - u origin master
+  342  git push -u origin master
+  343  git pull
+  344  git pull
+  345  git pull
+  346  composer update
+  347  master status
+  348  git status 
+  349  git pull 
+  350  git add .
+  351  git commit -m "hajer marj"
+  352  git push -u origin master
+  353  git pull
+  354  composer update
+  355  composer update
+  356  clear
+  357  composer update
+  358  git add .
+  359  git commit -m "15062019"
+  360  git push origin master 
+  361  git push -u origin master 
+  362  git pull
+  363  git add .
+  364  git pull
+  365  git add .
+  366  git commit -m "please "
+  367  git push -u origin master
+  368  git pull 
+  369  composer update
+  370  COMPOSER_MEMORY_LIMIT=-1 /c/ProgramData/ComposerSetup/bin/composer update
+  371  git ?
+  372  git checkout ''
+  373  COMPOSER_MEMORY_LIMIT=-1 /c/ProgramData/ComposerSetup/bin/composer update
+  374  composer update
+  375  git clone https://github.com/Hajermejri/CI.git
+  376  touch hajer
+  377  vi hajer
+  378  git status
+  379  ls
+  380  cd CI
+  381  ls
+  382  cp ../hajer  .
+  383  ls
+  384  git status
+  385  git add .
+  386  git status
+  387  git commit -m "first commit" 
+  388  git log
+  389  git show fa1891b4b6a703fc34fba6ae18ac5dc79307194b
+  390  git push 
+  391  git push origin  
+  392  git push origin  master
+  393  git push origin master
+  394  git push origin master
+  395  git shoz
+  396  git show
+  397  git push
+  398  ls
+  399  git commit
+  400  git commit man
+  401  man commit
+  402  git status
+  403  git add .
+  404  git commit
+  405  ls
+  406  git status
+  407  commit
+  408  git commit
+  409  git push 
+  410  git commit -m "second commit"
+  411  git status
+  412  git status
+  413  ls
+  414  git add .
+  415  git status
+  416  gitk
+  417  git remote -v
+  418  cd..
+  419  cd ..
+  420  rm -rf CI
+  421  git clone https://github.com/Hajermejri/CI.git 
+  422  cd CI
+  423  ls
+  424  git status
+  425  git add .
+  426  git status
+  427  git commit -m "commit"
+  428  git status
+  429  git push 
+  430  ls
+  431  cp -rf maven-demo-1/* .
+  432  ls
+  433  rm -rf maven-demo-1
+  434  ls
+  435  git stauts
+  436  git status
+  437  git add .
+  438  git commit -m "fix arbo"
+  439  git push
+  440  git log
+  441  history
+  442  history >> commands.txt
