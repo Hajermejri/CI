@@ -37,7 +37,7 @@ i was executed.
                 echo 'Deploying....'
             }
         }
-    }
+    
 	stage("publish to nexus") {
             steps {
                 script {
@@ -80,5 +80,5 @@ i was executed.
                 }
             }
         }
-
+}
 }
