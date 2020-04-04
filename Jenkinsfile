@@ -16,7 +16,14 @@ NEXUS_REPOSITORY = "maven-public"
 NEXUS_CREDENTIAL_ID = "test"
 }
 stages {
-
+stage("clone code") {
+steps {
+script {
+// Let's clone the source
+git 'https://github.com/Hajermejri/CI.git';
+}
+}
+}
 stage("mvn build") {
 steps {
 script {
