@@ -11,7 +11,7 @@ pipeline {
         // Repository where we will upload the artifact
         NEXUS_REPOSITORY = "maven-central"
         // Jenkins credential id to authenticate to Nexus OSS
-        NEXUS_CREDENTIAL_ID = "Test"
+        NEXUS_CREDENTIAL_ID = "nexus-credentials"
     }
 
     stages {
@@ -19,12 +19,9 @@ pipeline {
             steps {
                 echo 'Building..'
             }
-		post{
-		always {
-		emailext body: '''hello hello ,
-i was executed.
-''', subject: 'plan executé', to: 'oussama.louati@esprit.tn'
-		}}	
+			post{
+				always {
+				emailext body: '''hello hello ,i was executed.'', subject: 'plan executé' to: 'oussama.louati@esprit.tn'}},
         }
 		
         stage('Test') {
@@ -74,7 +71,8 @@ i was executed.
                                 type: "pom"]
                             ]
                         );
-                    } else {
+                    }
+					else {
                         error "*** File: ${artifactPath}, could not be found";
                     }
                 }
